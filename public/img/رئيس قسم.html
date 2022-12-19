@@ -1,0 +1,787 @@
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://127.0.0.1:5500/mangment_of_dapartment.html -->
+<html lang="ar" dir="rtl"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob 49, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.88.1">
+
+    <title>رئيس قسم</title>
+
+    <link type="text/css" rel="stylesheet" href="./رئيس قسم_files/bootstrap.rtl.css">
+    <link type="text/css" rel="stylesheet" href="./رئيس قسم_files/bootstrap.rtl.min.css">
+    <link type="text/css" rel="stylesheet" href="./رئيس قسم_files/bootstrap-icons.css">
+    <link type="text/css" rel="stylesheet" href="./رئيس قسم_files/main.css">
+    <link type="text/css" rel="stylesheet" href="./رئيس قسم_files/style.css">
+
+</head>
+
+<body class="bg-light">
+
+<nav class="navbar navbar-expand-lg fixed-top  fixed-top navbar-fav bg-fav p-1">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="http://127.0.0.1:5500/mangment_of_dapartment.html#"></a>
+      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav nav-tabs " id="myTab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="false"><i class="bi bi-house-fill me-2"></i>الريئسية</button>
+          </li>
+          <li class="nav-item dropdown " role="presentation">
+            <a class="nav-link dropdown-toggle active" href="http://127.0.0.1:5500/mangment_of_dapartment.html#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-check me-2"></i> أستاذ
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="http://127.0.0.1:5500/mangment_of_dapartment.html#" id="add-teacher-tab" data-bs-toggle="tab" data-bs-target="#add-teacher" type="button" role="tab" aria-controls="add-teacher" aria-selected="false"><i class="bi bi-book-fill me-2"></i>اضافة عضو تدريس  </a></li>
+              <li><a class="dropdown-item active" href="http://127.0.0.1:5500/mangment_of_dapartment.html#" id="add-comittee-tab" data-bs-toggle="tab" data-bs-target="#add-comittee" type="button" role="tab" aria-controls="add-comittee" aria-selected="true" aria-expanded="true"><i class="bi bi-bookmark-plus-fill me-2"></i> لجنة الرصد</a></li>
+            </ul>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="student-tab" data-bs-toggle="tab" data-bs-target="#student" type="button" role="tab" aria-controls="student" aria-selected="false"><i class="bi bi-shield-lock me-2"></i>طلاب</button>
+          </li>
+        
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="البحث عن ..." aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">بحث</button>
+        </form>
+      </div>
+    </div>
+</nav> 
+
+
+   <!-- Tab panes  محتويات الشريط العلوي-->
+<div class="container-fluid body-tab">
+  <div class="tab-content">
+      <div class="tab-pane " id="home" role="tabpanel" aria-labelledby="home-tab">
+         <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+           <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+           </div>
+           <div class="carousel-inner " style="height: 500px; width: 100%;">
+                <div class="carousel-item active">
+                  <img src="./رئيس قسم_files/UHDR!.jpg" class="d-block w-100" alt="rtl">
+                </div>
+                <div class="carousel-item">
+                  <img src="./رئيس قسم_files/HDU.png" class="d-block w-100" alt="rtl">
+                </div>
+                <div class="carousel-item">
+                  <img src="./رئيس قسم_files/HU.jpg" class="d-block w-100" alt="rtl">
+                </div>
+           </div>
+           <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+           </button>
+           <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+           </button>
+         </div>
+      </div>
+
+        <div class="tab-pane" id="add-teacher" role="tabpanel" aria-labelledby="add-teacher-tab">
+          <div class="container">
+            <main>
+              <div class="py-2 text-center">
+                <h2>استمارة إعادة تصحيح دفتر</h2>
+              </div>
+          
+              <div class="row g-3">
+                <div class="col-md-7 col-lg-8 order-md-last">
+                  <h4 class="d-flex justify-content-between align-items-center mb-2">
+                    <span class="text-muted"> <h5>طلب إعادة تصحيح دفتر المقرر <input type="text" class=" w-25 " placeholder="اسم المقرر">  علماً ان نتيجتي في باقي المقررات كالاتي </h5></span>
+                    <!-- <span class="badge bg-secondary rounded-pill">3</span> -->
+                  </h4>
+                <ul class="list-group mb-3">
+                    <div class="table-responsive">
+                  <table class="table table-bordered table-hover  caption-top text-center bg-white mb-1">
+                    <caption>قائمة المقررات </caption>
+                    <thead>
+                      <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">المقرر</th>
+                        <th scope="col"> عدد الساعات</th>
+                        <th scope="col">المجموع</th>
+                        <th scope="col">التقدير</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      </tr>
+                      <tr><th scope="row">2</th>
+                        <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      </tr>
+                      <tr><th scope="row">3</th>
+                        <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      </tr>
+                      <tr><th scope="row">4</th>
+                        <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      </tr>
+                      <tr><th scope="row">5</th>
+                        <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      </tr>
+                      <tr><th scope="row">6</th>
+                        <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                        <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                    </div>
+                </ul>
+          
+                </div> 
+                <!--  -->
+                <div class="col-md-5 col-lg-4">
+                  <h4 class="mb-3">املأ الحقول التالية ...</h4>
+                  <form class="needs-validation" novalidate="">
+                    <div class="row g-3">
+                      <div class="col-sm-6">
+                        <label for="firstName" class="form-label"> الاسم </label>
+                        <input type="text" class="form-control" id="firstName" value="" placeholder="الاسم الرباعي" required="">
+                        <div class="invalid-feedback">
+                          يرجى إدخال الاسم الرباعي.
+                        </div>
+                      </div>
+  
+                      <div class="col-md-6">
+                        <label for="state" class="form-label">رقم القيد</label>
+                        <input type="number" class="form-control" id="firstName" value="" placeholder="رقم القيد " required="">
+                        <div class="invalid-feedback">
+                          يرجى ادخال رقم القيد .
+                        </div>
+                      </div>
+          
+                      <div class="col-md-6">
+                        <label for="state" class="form-label">تخصص</label>
+                        <select class="form-select" id="state" required="">
+                          <option selected="" disabled="" value="">تخصص ...</option>
+                            <option>هندسة حاسوب</option>
+                            <option>هندسة الالكترونية</option>
+                            <option>هندسة معمارية</option>
+                            <option>هندسة مدنية</option>
+                            <option>هندسة بترولية</option>
+                            <option>هندسة كيميائية</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          يرجى اختيار التخصص.
+                        </div>
+                      </div>
+          
+                      <div class="col-md-6">
+                        <label for="state" class="form-label">المستوي</label>
+                        <select class="form-select" id="state" required="">
+                          <option selected="" disabled="" value="">اختر...</option>
+                          <option>اول</option>
+                          <option>الثاني</option>
+                          <option>الثالث</option>
+                          <option>الرابع</option>
+                          <option>الخامس</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          يرجى اختيار المستوي .
+                        </div>
+                      </div>
+          
+                      
+          
+                    <hr class="my-3">
+          
+                    <div class="form-check">
+                      <label for="firstName" class="form-label pb-1"> سند التامين عند شركة العمقي في حساب الكلية رقم الحساب 254028786    </label>
+                      <input type="file" class="form-control" aria-label="file example" required="">
+                          <div class="invalid-feedback">  يرجى  رفع سند التامين   </div>
+                    </div>
+          
+                    <hr class="my-3">
+          
+                    <button class="w-100 btn btn-primary btn-lg" type="submit">ارسال</button>
+                  
+                </div></form>
+              </div>
+            </div></main>
+          </div>
+        </div>
+
+        <div class="tab-pane active" id="add-comittee" role="tabpanel" aria-labelledby="add-comittee-tab">
+          <div class="container">
+            <main>
+              <div class="py-2 text-center">
+                <h2>استمارة طلب تظلم</h2>
+              </div>
+          
+              <!-- <div class="row g-3"> -->
+                <!--  -->
+                <div class="col-md-5 col-lg-4">
+                  <h4 class="mb-3"> بيانات عضوء هئية ...</h4>
+                  <form class="needs-validation was-validated" novalidate="">
+                    <div class="row g-3">
+                      <div class="col-sm-6">
+                        <label for="firstName" class="form-label"> الاسم </label>
+                        <input type="text" class="form-control" id="firstName" value="" placeholder="الاسم الرباعي" required="">
+                        <div class="invalid-feedback">
+                          يرجى إدخال الاسم الرباعي.
+                        </div>
+                      </div>
+          
+                      <div class="col-md-6">
+                        <label for="state" class="form-label">المواهل التعليمي</label>
+                        <select class="form-select" id="state" required="">
+                          <option selected="" disabled="" value="">المواهل ...</option>
+                            <option>برفسور </option>
+                            <option>دكتوراة </option>
+                            <option>ماجستير </option>
+                            <option>باكلوريوس </option>
+                        </select>
+                        <div class="invalid-feedback">
+                          يرجى اختيار المواهل.
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <label for="state" class="form-label"> الايميل</label>
+                        <input type="email" class="form-control" id="firstName" value="" placeholder=" الايميل " required="">
+                        <div class="invalid-feedback">
+                          يرجى ادخال الايميل .
+                        </div>
+                      </div>
+
+                      <div class="col-md-6">
+                        <label for="state" class="form-label">رقم التواصل </label>
+                        <input type="number" class="form-control" id="firstName" value="" placeholder="رقم التواصل " required="">
+                        <div class="invalid-feedback">
+                          يرجى ادخال رقم التواصل .
+                        </div>
+                      </div>
+          
+                      <div class="col-md-6">
+                        <label for="state" class="form-label">تخصص</label>
+                        <select class="form-select" id="state" required="">
+                          <option selected="" disabled="" value="">تخصص ...</option>
+                            <option>هندسة حاسوب</option>
+                            <option>هندسة الالكترونية</option>
+                            <option>هندسة معمارية</option>
+                            <option>هندسة مدنية</option>
+                            <option>هندسة بترولية</option>
+                            <option>هندسة كيميائية</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          يرجى اختيار التخصص.
+                        </div>
+                      </div>
+                    </div>
+          
+                    <hr class="my-3">
+          
+                    <button class="w-100 btn btn-primary btn-lg" type="submit">حفظ</button>
+                  </form>
+                </div>
+              <!-- </div> -->
+            </main>
+          </div>
+        </div>
+        
+      
+      <!-- التظلمات -->
+      <div class="tab-pane" id="openBook" role="tabpanel" aria-labelledby="openBook-tab">
+        <div class="container">
+          <main>
+            <div class="py-2 text-center">
+              <h2>استمارة إعادة تصحيح دفتر</h2>
+            </div>
+        
+            <div class="row g-3">
+              <div class="col-md-7 col-lg-8 order-md-last">
+                <h4 class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="text-muted"> <h5>طلب إعادة تصحيح دفتر المقرر <input type="text" class=" w-25 " placeholder="اسم المقرر">  علماً ان نتيجتي في باقي المقررات كالاتي </h5></span>
+                  <!-- <span class="badge bg-secondary rounded-pill">3</span> -->
+                </h4>
+              <ul class="list-group mb-3">
+                  <div class="table-responsive">
+                <table class="table table-bordered table-hover  caption-top text-center bg-white mb-1">
+                  <caption>قائمة المقررات </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">المقرر</th>
+                      <th scope="col"> عدد الساعات</th>
+                      <th scope="col">المجموع</th>
+                      <th scope="col">التقدير</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">2</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">3</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">4</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">5</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">6</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                  </tbody>
+                </table>
+                  </div>
+              </ul>
+        
+              </div> 
+              <!--  -->
+              <div class="col-md-5 col-lg-4">
+                <h4 class="mb-3">املأ الحقول التالية ...</h4>
+                <form class="needs-validation" novalidate="">
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <label for="firstName" class="form-label">اتقدم انا الطالب </label>
+                      <input type="text" class="form-control" id="firstName" value="" placeholder="الاسم الرباعي" required="">
+                      <div class="invalid-feedback">
+                        يرجى إدخال الاسم الرباعي.
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="state" class="form-label">رقم القيد</label>
+                      <input type="number" class="form-control" id="firstName" value="" placeholder="رقم القيد " required="">
+                      <div class="invalid-feedback">
+                        يرجى ادخال رقم القيد .
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                      <label for="state" class="form-label">تخصص</label>
+                      <select class="form-select" id="state" required="">
+                        <option selected="" disabled="" value="">تخصص ...</option>
+                          <option>هندسة حاسوب</option>
+                          <option>هندسة الالكترونية</option>
+                          <option>هندسة معمارية</option>
+                          <option>هندسة مدنية</option>
+                          <option>هندسة بترولية</option>
+                          <option>هندسة كيميائية</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        يرجى اختيار التخصص.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                      <label for="state" class="form-label">المستوي</label>
+                      <select class="form-select" id="state" required="">
+                        <option selected="" disabled="" value="">اختر...</option>
+                        <option>اول</option>
+                        <option>الثاني</option>
+                        <option>الثالث</option>
+                        <option>الرابع</option>
+                        <option>الخامس</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        يرجى اختيار المستوي .
+                      </div>
+                    </div>
+        
+                    
+        
+                  <hr class="my-3">
+        
+                  <div class="form-check">
+                    <label for="firstName" class="form-label pb-1"> سند التامين عند شركة العمقي في حساب الكلية رقم الحساب 254028786    </label>
+                    <input type="file" class="form-control" aria-label="file example" required="">
+                        <div class="invalid-feedback">  يرجى  رفع سند التامين   </div>
+                  </div>
+        
+                  <hr class="my-3">
+        
+                  <button class="w-100 btn btn-primary btn-lg" type="submit">ارسال</button>
+                
+              </div></form>
+            </div>
+          </div></main>
+        </div>
+      </div>
+      <div class="tab-pane" id="sumMrks" role="tabpanel" aria-labelledby="sumMaks-tab">
+        <div class="container">
+          <main>
+            <div class="py-2 text-center">
+              <h2>استمارة طلب تظلم</h2>
+            </div>
+        
+            <div class="row g-3">
+              <div class="col-md-7 col-lg-8 order-md-last">
+                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                  <span class="text-muted">طلب التظلم على  نتيجة الفصل الدراسي الاول للعام الجامعي 2021-2022م بالمقررات التالية </span>
+                  <!-- <span class="badge bg-secondary rounded-pill">3</span> -->
+                </h4>
+              <ul class="list-group mb-3">
+                  <div class="table-responsive">
+                <table class="table table-bordered table-hover  caption-top text-center bg-white">
+                  <caption>قائمة المقررات </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">المقرر</th>
+                      <th scope="col">نتيجة الامتحان النهائي</th>
+                      <th scope="col">الملاحظات</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">2</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">3</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">4</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">5</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">6</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                  </tbody>
+                </table>
+                  </div>
+              </ul>
+        
+              </div> 
+              <!--  -->
+              <div class="col-md-5 col-lg-4">
+                <h4 class="mb-3">املأ الحقول التالية ...</h4>
+                <form class="needs-validation" novalidate="">
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <label for="firstName" class="form-label">اتقدم انا الطالب </label>
+                      <input type="text" class="form-control" id="firstName" value="" placeholder="الاسم الرباعي" required="">
+                      <div class="invalid-feedback">
+                        يرجى إدخال الاسم الرباعي.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                      <label for="state" class="form-label">تخصص</label>
+                      <select class="form-select" id="state" required="">
+                        <option selected="" disabled="" value="">تخصص ...</option>
+                          <option>هندسة حاسوب</option>
+                          <option>هندسة الالكترونية</option>
+                          <option>هندسة معمارية</option>
+                          <option>هندسة مدنية</option>
+                          <option>هندسة بترولية</option>
+                          <option>هندسة كيميائية</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        يرجى اختيار التخصص.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                      <label for="state" class="form-label">المستوي</label>
+                      <select class="form-select" id="state" required="">
+                        <option selected="" disabled="" value="">اختر...</option>
+                        <option>اول</option>
+                        <option>الثاني</option>
+                        <option>الثالث</option>
+                        <option>الرابع</option>
+                        <option>الخامس</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        يرجى اختيار المستوي .
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                      <label for="state" class="form-label">الفترة</label>
+                      <select class="form-select" id="state" required="">
+                        <option selected="" disabled="" value="">اختر...</option>
+                        <option>الصباحي</option>
+                        <option>المسائي</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        يرجى اختيار الفترة .
+                      </div>
+                    </div>
+        
+                  <hr class="my-3">
+        
+                  <div class="form-check">
+                    <label for="firstName" class="form-label pb-1"> سند التامين عند شركة العمقي في حساب الكلية رقم الحساب 254028786    </label>
+                    <input type="file" class="form-control" aria-label="file example" required="">
+                        <div class="invalid-feedback">  يرجى اختيار رفع سند التامين   </div>
+                  </div>
+        
+                  <hr class="my-3">
+        
+                  <button class="w-100 btn btn-primary btn-lg" type="submit">ارسال</button>
+                
+              </div></form>
+            </div>
+          </div></main>
+        </div>
+      </div>
+      <div class="tab-pane" id="anotherReason" role="tabpanel" aria-labelledby="anotherReason-tab">
+        no reason<div class="container">
+          <main>
+            <div class="py-2 text-center">
+              <h2>استمارة إعادة تصحيح دفتر</h2>
+            </div>
+        
+            <div class="row g-3">
+              <div class="col-md-7 col-lg-8 order-md-last">
+                <h4 class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="text-muted"> <h5>طلب إعادة تصحيح دفتر المقرر <input type="text" class=" w-25 " placeholder="اسم المقرر">  علماً ان نتيجتي في باقي المقررات كالاتي </h5></span>
+                  <!-- <span class="badge bg-secondary rounded-pill">3</span> -->
+                </h4>
+              <ul class="list-group mb-3">
+                  <div class="table-responsive">
+                <table class="table table-bordered table-hover  caption-top text-center bg-white mb-1">
+                  <caption>قائمة المقررات </caption>
+                  <thead>
+                    <tr>
+                      <th scope="col">#</th>
+                      <th scope="col">المقرر</th>
+                      <th scope="col"> عدد الساعات</th>
+                      <th scope="col">المجموع</th>
+                      <th scope="col">التقدير</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">1</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">2</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">3</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">4</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">5</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                    <tr><th scope="row">6</th>
+                      <td><input type="text" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                      <td><input type="number" class="form-control align-items-center justify-content-center" id="floatingInputValue"></td>
+                    </tr>
+                  </tbody>
+                </table>
+                  </div>
+              </ul>
+        
+              </div> 
+              <!--  -->
+              <div class="col-md-5 col-lg-4">
+                <h4 class="mb-3">املأ الحقول التالية ...</h4>
+                <form class="needs-validation" novalidate="">
+                  <div class="row g-3">
+                    <div class="col-sm-6">
+                      <label for="firstName" class="form-label">اتقدم انا الطالب </label>
+                      <input type="text" class="form-control" id="firstName" value="" placeholder="الاسم الرباعي" required="">
+                      <div class="invalid-feedback">
+                        يرجى إدخال الاسم الرباعي.
+                      </div>
+                    </div>
+
+                    <div class="col-md-6">
+                      <label for="state" class="form-label">رقم القيد</label>
+                      <input type="number" class="form-control" id="firstName" value="" placeholder="رقم القيد " required="">
+                      <div class="invalid-feedback">
+                        يرجى ادخال رقم القيد .
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                      <label for="state" class="form-label">تخصص</label>
+                      <select class="form-select" id="state" required="">
+                        <option selected="" disabled="" value="">تخصص ...</option>
+                          <option>هندسة حاسوب</option>
+                          <option>هندسة الالكترونية</option>
+                          <option>هندسة معمارية</option>
+                          <option>هندسة مدنية</option>
+                          <option>هندسة بترولية</option>
+                          <option>هندسة كيميائية</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        يرجى اختيار التخصص.
+                      </div>
+                    </div>
+        
+                    <div class="col-md-6">
+                      <label for="state" class="form-label">المستوي</label>
+                      <select class="form-select" id="state" required="">
+                        <option selected="" disabled="" value="">اختر...</option>
+                        <option>اول</option>
+                        <option>الثاني</option>
+                        <option>الثالث</option>
+                        <option>الرابع</option>
+                        <option>الخامس</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        يرجى اختيار المستوي .
+                      </div>
+                    </div>
+        
+                    
+        
+                  <hr class="my-3">
+        
+                  <div class="form-check">
+                    <label for="firstName" class="form-label pb-1"> سند التامين عند شركة العمقي في حساب الكلية رقم الحساب 254028786    </label>
+                    <input type="file" class="form-control" aria-label="file example" required="">
+                        <div class="invalid-feedback">  يرجى  رفع سند التامين   </div>
+                  </div>
+        
+                  <hr class="my-3">
+        
+                  <button class="w-100 btn btn-primary btn-lg" type="submit">ارسال</button>
+                
+              </div></form>
+            </div>
+          </div></main>
+        </div>
+      </div>
+      <div class="tab-pane" id="exam" role="tabpanel" aria-labelledby="exam-tab">
+        no exam
+      </div>
+         <!-- <div class="tab-pane" id="contact" role="tabpanel" aria-labelledby="contact-tab">Contact</div> -->
+  </div>
+</div>
+
+
+<script type="text/javascript" src="./رئيس قسم_files/jquery.js"></script>
+<script type="text/javascript" src="./رئيس قسم_files/bootstrap.bundle.min.js"></script>
+<script type="text/javascript" src="./رئيس قسم_files/datatable.js"></script>
+<script type="text/javascript" src="./رئيس قسم_files/datatablebootstrap.js"></script>
+<script type="text/javascript" src="./رئيس قسم_files/main.js"></script>
+<script type="text/javascript" class="init">
+       
+   $(document).ready(function() {
+       $('#example').DataTable();
+   } );
+   
+       </script>
+<script type="text/javascript" src="./رئيس قسم_files/form-validation.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
